@@ -48,7 +48,6 @@ public class DataHelper {
         return new ArrayList<>(uniqueIntegers);
     }
 
-    // restituisce una mappa di frequenza di numeri interi
     public static Map<Integer, Integer> getFrequencyMap(List<Integer> list) {
         Map<Integer, Integer> frequencyMap = new HashMap<>();
         for (Integer number : list) {
